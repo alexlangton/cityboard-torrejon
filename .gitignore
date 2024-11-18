@@ -1,0 +1,24 @@
+# Dependencias y directorios de construcción
+/vendor/
+/node_modules/
+/dist/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y datos
+/logs/*
+!/logs/.gitkeep
+/mysql_data/
+/data/
+
+# IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de caché
+*.cache
+.phpunit.result.cache 

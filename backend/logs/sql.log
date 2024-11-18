@@ -1,0 +1,2 @@
+2024-11-18 14:30:47 - SQL Query [parkings]: SELECT * FROM parkings
+2024-11-18 14:30:47 - Error SQL en tabla parkings: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cityboardtorrejon.parkings' doesn't exist
