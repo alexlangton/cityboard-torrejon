@@ -25,11 +25,7 @@ return [
         'email',
         'max:100',
         'unico:usuarios'
-    ],
-    'rol' => [
-        'requerido',
-        'enum:admin,usuario'
-    ],
+    ],    
     'estado' => [
         'opcional',
         'enum:activo,inactivo',
@@ -43,13 +39,5 @@ return [
         'opcional',
         'string',
         'max:255'
-    ],
-    'expiracion' => [
-        'opcional',
-        'fecha'
-    ],
-    'fecha_creacion_token' => [
-        'opcional',
-        'fecha'
-    ]
+    ] 
 ]; 
